@@ -10,7 +10,7 @@
 - 📄 ORCID: [0009-0003-6248-3327](https://orcid.org/0009-0003-6248-3327)
 
 <a href="https://github.com/stats-organization/github-stats-extended">
-  <img src="https://github-stats-extended.vercel.app/api?username=SoulmatelynchVFX&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true" alt="My GitHub stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=SoulmatelynchVFX&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&rank_icon=github" alt="My GitHub stats" />
 </a>
 <a href="https://github.com/stats-organization/github-stats-extended">
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SoulmatelynchVFX&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
