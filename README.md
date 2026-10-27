@@ -19,7 +19,7 @@
 *注：“Top languages” 显示的是我公开代码库中出现频率最高的语言，并非技能排名，由 [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended) 提供支持。*
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SoulmatelynchVFX/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SoulmatelynchVFX/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SoulmatelynchVFX/snk/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/SoulmatelynchVFX/snk@output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/SoulmatelynchVFX/snk@output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://cdn.jsdelivr.net/gh/SoulmatelynchVFX/snk@output/github-contribution-grid-snake.svg">
 </picture>
