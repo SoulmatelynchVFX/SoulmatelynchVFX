@@ -16,7 +16,6 @@
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SoulmatelynchVFX&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
 </a>
 
-*注：“Top languages” 显示的是我公开代码库中出现频率最高的语言，并非技能排名，由 [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended) 提供支持。*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/SoulmatelynchVFX/snk@output/github-contribution-grid-snake-dark.svg">
