@@ -24,7 +24,5 @@
 | **工具 / 平台** | ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 
 <p align="center">
-  <a href="https://github.com/stats-organization/github-stats-extended">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SoulmatelynchVFX&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
-  </a>
+  <img src="./assets/languages.svg" alt="Most Used Languages" width="500">
 </p>
