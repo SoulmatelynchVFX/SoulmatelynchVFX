@@ -2,8 +2,8 @@
 <text x="36" y="44" fill="#2F81F7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="600">Most Used Languages</text>
 <defs><clipPath id="bar"><rect x="36" y="76" width="420" height="16" rx="8"/></clipPath></defs>
 <g clip-path="url(#bar)">
-<rect x="36.00" y="76" width="239.46" height="16" fill="#3572A5"/>
-<rect x="275.46" y="76" width="73.09" height="16" fill="#3178C6"/>
+<rect x="36.00" y="76" width="239.47" height="16" fill="#3572A5"/>
+<rect x="275.47" y="76" width="73.09" height="16" fill="#3178C6"/>
 <rect x="348.55" y="76" width="41.55" height="16" fill="#563D7C"/>
 <rect x="390.10" y="76" width="41.33" height="16" fill="#E34C26"/>
 <rect x="431.44" y="76" width="21.39" height="16" fill="#F1E05A"/>
