@@ -53,17 +53,17 @@ if rest:
     rows.append(("Other", rest / grand * 100.0))
 
 # layout
-W = 500
+W = 560
 PAD = 36
-BAR_W = 375          # ~75% of card width
+BAR_W = 420          # 75% of 560
 BAR_H = 16
 BAR_Y = 76
 TITLE_Y = 44
-LEG_Y = 132
-ROW_H = 34
+LEG_Y = 128
+ROW_H = 38
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 
-H = LEG_Y + ROW_H * ((len(rows) + 1) // 2) + 14
+H = LEG_Y + ROW_H * ((len(rows) + 2) // 3) + 6
 
 parts = []
 parts.append(
@@ -87,14 +87,14 @@ for name, pct in rows:
     x += seg
 parts.append("</g>")
 
-# legend, two columns
+# legend, three columns x two rows
 for i, (name, pct) in enumerate(rows):
-    col = i % 2
-    row = i // 2
-    cx = PAD + col * 214
+    col = i % 3
+    row = i // 3
+    cx = PAD + col * 172
     cy = LEG_Y + row * ROW_H
     parts.append('<circle cx="%d" cy="%d" r="6" fill="%s"/>' % (cx, cy - 5, COLORS.get(name, "#8B949E")))
-    parts.append('<text x="%d" y="%d" fill="#C9D1D9" font-family="%s" font-size="15">%s %.2f%%</text>'
+    parts.append('<text x="%d" y="%d" fill="#C9D1D9" font-family="%s" font-size="14">%s %.2f%%</text>'
                  % (cx + 16, cy, FONT, name, pct))
 
 parts.append("</svg>")
