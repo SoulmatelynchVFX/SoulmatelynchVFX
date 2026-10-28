@@ -23,9 +23,8 @@
 | **脚本 / 自动化** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white) ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnubash&logoColor=white) |
 | **工具 / 平台** | ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 
-<a href="https://github.com/stats-organization/github-stats-extended">
-  <img src="https://github-stats-extended.vercel.app/api?username=SoulmatelynchVFX&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&rank_icon=github" alt="My GitHub stats" />
-</a>
-<a href="https://github.com/stats-organization/github-stats-extended">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SoulmatelynchVFX&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
-</a>
+<p align="center">
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=SoulmatelynchVFX&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
+  </a>
+</p>
