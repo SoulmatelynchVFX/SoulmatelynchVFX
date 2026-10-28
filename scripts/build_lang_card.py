@@ -52,18 +52,21 @@ rows = [(n, v / grand * 100.0) for n, v in top]
 if rest:
     rows.append(("Other", rest / grand * 100.0))
 
-# layout
-W = 560
-PAD = 36
-BAR_W = 420          # 75% of 560
-BAR_H = 16
-BAR_Y = 76
-TITLE_Y = 44
-LEG_Y = 128
-ROW_H = 38
+# layout — 与技能表同宽(572)、左对齐、压扁
+W = 572
+PAD = 16
+BAR_W = 540          # 卡片内可用满宽
+BAR_H = 13
+BAR_Y = 42
+TITLE_Y = 26
+TITLE_SIZE = 22
+LEG_Y = 76
+ROW_H = 26
+COL_W = 180
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 
-H = LEG_Y + ROW_H * ((len(rows) + 2) // 3) + 6
+nrows = (len(rows) + 2) // 3
+H = LEG_Y + ROW_H * (nrows - 1) + 14
 
 parts = []
 parts.append(
@@ -71,8 +74,8 @@ parts.append(
     'role="img" aria-label="Most Used Languages">' % (W, H, W, H)
 )
 parts.append(
-    '<text x="%d" y="%d" fill="#2F81F7" font-family="%s" font-size="26" font-weight="600">'
-    'Most Used Languages</text>' % (PAD, TITLE_Y, FONT)
+    '<text x="%d" y="%d" fill="#2F81F7" font-family="%s" font-size="%d" font-weight="600">'
+    'Most Used Languages</text>' % (PAD, TITLE_Y, FONT, TITLE_SIZE)
 )
 
 # stacked bar with rounded ends via clip path
@@ -91,9 +94,9 @@ parts.append("</g>")
 for i, (name, pct) in enumerate(rows):
     col = i % 3
     row = i // 3
-    cx = PAD + col * 172
+    cx = PAD + col * COL_W
     cy = LEG_Y + row * ROW_H
-    parts.append('<circle cx="%d" cy="%d" r="6" fill="%s"/>' % (cx, cy - 5, COLORS.get(name, "#8B949E")))
+    parts.append('<circle cx="%d" cy="%d" r="5" fill="%s"/>' % (cx, cy - 4, COLORS.get(name, "#8B949E")))
     parts.append('<text x="%d" y="%d" fill="#C9D1D9" font-family="%s" font-size="14">%s %.2f%%</text>'
                  % (cx + 16, cy, FONT, name, pct))
 
