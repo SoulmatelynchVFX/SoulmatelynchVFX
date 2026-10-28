@@ -3,7 +3,7 @@ import os
 import urllib.request
 
 USER = "SoulmatelynchVFX"
-OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "languages.svg")
+OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "lang-card.svg")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 COLORS = {
