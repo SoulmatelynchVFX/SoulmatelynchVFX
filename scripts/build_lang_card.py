@@ -1,3 +1,4 @@
+import html
 import json
 import os
 import urllib.request
@@ -29,28 +30,38 @@ def api(url):
         return json.load(r)
 
 
-repos = api("https://api.github.com/users/%s/repos?per_page=100&type=owner" % USER)
+repos = []
+page = 1
+while True:
+    batch = api("https://api.github.com/users/%s/repos?per_page=100&type=owner&page=%d" % (USER, page))
+    repos.extend(batch)
+    if len(batch) < 100:
+        break
+    page += 1
+
 totals = {}
 for repo in repos:
     if repo.get("fork"):
         continue
-    try:
-        langs = api("https://api.github.com/repos/%s/%s/languages" % (USER, repo["name"]))
-    except Exception:
-        continue
+    # Fail the run instead of publishing a plausible but incomplete chart.
+    langs = api("https://api.github.com/repos/%s/%s/languages" % (USER, repo["name"]))
     for k, v in langs.items():
+        if type(v) is not int or v < 0:
+            raise ValueError("invalid language byte count")
         totals[k] = totals.get(k, 0) + v
 
-if not totals:
+if not totals or not sum(totals.values()):
     raise SystemExit("no language data")
 
 grand = sum(totals.values())
-items = sorted(totals.items(), key=lambda kv: -kv[1])
-top = items[:5]
-rest = sum(v for _, v in items[5:])
-rows = [(n, v / grand * 100.0) for n, v in top]
-if rest:
-    rows.append(("Other", rest / grand * 100.0))
+items = sorted(totals.items(), key=lambda kv: (-kv[1], kv[0]))
+# Retain every language, and round labels to a total of exactly 100.00%.
+units = {name: value * 10000 // grand for name, value in items}
+remaining = 10000 - sum(units.values())
+by_remainder = sorted(items, key=lambda kv: -(kv[1] * 10000 % grand))
+for name, _ in by_remainder[:remaining]:
+    units[name] += 1
+rows = [(name, units[name] / 100.0) for name, _ in items]
 
 # layout — 与技能表同宽(572)、左对齐、压扁
 W = 572
@@ -84,13 +95,13 @@ parts.append('<defs><clipPath id="bar"><rect x="%d" y="%d" width="%d" height="%d
 parts.append('<g clip-path="url(#bar)">')
 x = float(PAD)
 for name, pct in rows:
-    seg = BAR_W * pct / 100.0
-    parts.append('<rect x="%.2f" y="%d" width="%.2f" height="%d" fill="%s"/>'
+    seg = BAR_W * totals[name] / grand
+    parts.append('<rect x="%.6f" y="%d" width="%.6f" height="%d" fill="%s"/>'
                  % (x, BAR_Y, seg, BAR_H, COLORS.get(name, "#8B949E")))
     x += seg
 parts.append("</g>")
 
-# legend, three columns x two rows
+# Legend uses three columns, growing by row as needed.
 for i, (name, pct) in enumerate(rows):
     col = i % 3
     row = i // 3
@@ -98,7 +109,7 @@ for i, (name, pct) in enumerate(rows):
     cy = LEG_Y + row * ROW_H
     parts.append('<circle cx="%d" cy="%d" r="5" fill="%s"/>' % (cx, cy - 4, COLORS.get(name, "#8B949E")))
     parts.append('<text x="%d" y="%d" fill="#C9D1D9" font-family="%s" font-size="14">%s %.2f%%</text>'
-                 % (cx + 16, cy, FONT, name, pct))
+                 % (cx + 16, cy, FONT, html.escape(name), pct))
 
 parts.append("</svg>")
 
@@ -106,3 +117,4 @@ os.makedirs(os.path.dirname(OUT), exist_ok=True)
 with open(OUT, "w", encoding="utf-8", newline="\n") as f:
     f.write("\n".join(parts))
 print("written", OUT, "rows:", rows)
+
