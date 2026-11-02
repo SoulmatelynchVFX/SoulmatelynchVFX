@@ -2,7 +2,7 @@
   <img src="./assets/header.jpg" alt="Seal Wang — 视觉特效与创作工具" width="100%">
 </p>
 
-# 嗨，我是 Seal Wang 👋
+# 嗨，我是 SeeleWang 👋
 
 **视觉特效 · 程序化制作 · 创作工具**
 
