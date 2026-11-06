@@ -1,27 +1,64 @@
-<p align="center">
-  <img src="./assets/header.jpg" alt="Seal Wang — 视觉特效与创作工具" width="100%">
-</p>
-
 # 嗨，我是 SeeleWang 👋
 
 **视觉特效 · 程序化制作 · 创作工具**
 
+[![GitHub followers](https://img.shields.io/github/followers/SoulmatelynchVFX?style=social)](https://github.com/SoulmatelynchVFX)
+[![Website](https://img.shields.io/badge/Website-sl--vfx.site-blue)](https://www.sl-vfx.site)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--6248--3327-green)](https://orcid.org/0009-0003-6248-3327)
+
 我从事视觉特效，也为创作和日常使用写工具。从 Houdini、Blender 的场景与脚本，到 Windows 桌面工具、作品集网站和交互原型，我喜欢把实际遇到的问题变成自己的小项目，边用边改。
 
-最近也在用 Codex 辅助开发，把脑海里的想法做出来，同时探索 AI Agent、MCP 与创作软件之间的连接。
+最近也在用 Codex 辅助开发，试 AI Agent、MCP 与创作软件之间的连接。
 
 [个人网站 · sl-vfx.site](https://www.sl-vfx.site) · [公开仓库](https://github.com/SoulmatelynchVFX?tab=repositories) · [ORCID](https://orcid.org/0009-0003-6248-3327)
 
-## 正在构建
+---
 
-这些是我自己的公开项目，覆盖作品展示、存储分析、硬件监控和日常网络配置。
+## 自己的公开项目
 
-| 项目 | 在解决什么问题 | 当前形态 |
-| --- | --- | --- |
-| [SpaceAtlas](https://github.com/SoulmatelynchVFX/spaceatlas) | 让 Windows 存储占用更容易理解：查看应用清单、分析指定目录，并导出统计报告。 | Python 只读存储分析 CLI，逐步完善应用与内容的空间视图。 |
-| [PulseAtlas](https://github.com/SoulmatelynchVFX/pulseatlas) | 在桌面上直接查看 CPU、内存和所选显卡的运行状态。 | Windows 监控悬浮窗，支持置顶、透明度、折叠与显卡选择。 |
-| [VFX Portfolio](https://github.com/SoulmatelynchVFX/vfx-portfolio) | 把视觉特效作品、技术练习与个人介绍整理成自己的展示空间。 | Next.js + TypeScript 网站；持续打磨视频播放、Canvas 粒子与页面交互。 |
-| [client-rules](https://github.com/SoulmatelynchVFX/client-rules) | 维护日常使用的应用分流策略，让配置更容易检查和调整。 | iOS Shadowrocket 原生配置，配套 Python 规则校验工具。 |
+### SpaceAtlas
+
+面向 Windows 的**只读存储分析 CLI**：查看应用清单、分析指定目录占用，并导出统计报告，不执行删除。
+
+**技术栈：** Python · CLI · 测试覆盖命令行模块
+
+**当前形态：** 原型阶段，仅只读命令行模块入库；网页界面、全盘归属与历史对比尚未发布。原名 `lipan`，2026-10 改名为 SpaceAtlas。
+
+[![GitHub](https://img.shields.io/badge/GitHub-SpaceAtlas-blue?style=flat-square&logo=github)](https://github.com/SoulmatelynchVFX/spaceatlas)
+
+### houdini-cpu-limiter
+
+Houdini CPU 占用上限控制器：工具架、内嵌面板与独立窗口三种入口，按 Windows 进程树设置限额。
+
+**技术栈：** Python · Houdini · Windows 进程 API
+
+[![GitHub](https://img.shields.io/badge/GitHub-houdini--cpu--limiter-blue?style=flat-square&logo=github)](https://github.com/SoulmatelynchVFX/houdini-cpu-limiter)
+
+### PulseAtlas
+
+轻量**只读硬件监控悬浮窗**：显示真实本机 CPU、内存与所选显卡状态，支持置顶、透明度、折叠和单显卡选择，取不到数据时明确降级。
+
+**技术栈：** Python · Windows API · 实时监控
+
+[![GitHub](https://img.shields.io/badge/GitHub-PulseAtlas-blue?style=flat-square&logo=github)](https://github.com/SoulmatelynchVFX/pulseatlas)
+
+### VFX Portfolio
+
+把视觉特效作品、技术练习与个人介绍整理成自己的展示空间，线上 [sl-vfx.site](https://sl-vfx.site)。
+
+**技术栈：** Next.js · TypeScript · Tailwind CSS · Framer Motion · Lenis · Canvas 粒子文本
+
+[![GitHub](https://img.shields.io/badge/GitHub-VFX%20Portfolio-blue?style=flat-square&logo=github)](https://github.com/SoulmatelynchVFX/vfx-portfolio)
+
+### client-rules
+
+应用分流规则片段（Clash 格式，仅含 rules 段），配套 Python 规则校验工具，便于检查与调整日常使用的配置。
+
+**技术栈：** Python · Clash rules · 配置校验
+
+[![GitHub](https://img.shields.io/badge/GitHub-client--rules-blue?style=flat-square&logo=github)](https://github.com/SoulmatelynchVFX/client-rules)
+
+---
 
 ## Codex 工作台
 
@@ -33,20 +70,35 @@
 | **Blender 建模与动画脚本** | 程序化模型、动作适配与局部动画修正；从具体场景中积累可复用的处理步骤。 |
 | **FoodWheel** | 用 Expo + React Native 做一个帮忙决定吃什么的小应用：加权轮盘、吃后日记、避雷偏好、自建候选库和备份。 |
 | **MewHelp** | 电商客服原型，把知识检索、来源引用、订单查询、流式回答和转人工串成一个完整流程。 |
-| **随译** | Windows 桌面翻译小工具，支持框选 OCR、剪贴板和手动输入，让读外文时少切几次窗口。 |
-| **立体几何图解实验室** | 将题目、空间图形和选项反例放进交互页面，用可旋转的图示辅助理解。 |
+
+---
 
 ## 从 Fork 开始探索
 
-我的 fork 主要围绕下面几条方向展开，用来跟踪源码、尝试工作流和寻找可改进的地方。
+下面都是我自己的 fork，用来跟踪源码、尝试工作流和寻找可以改好的地方。
 
-| 方向 | 代表性 Fork | 关注点 |
-| --- | --- | --- |
-| **VFX 与程序化制作** | [SideFXLabs](https://github.com/SoulmatelynchVFX/SideFXLabs) · [HoudiniEngineForUnreal](https://github.com/SoulmatelynchVFX/HoudiniEngineForUnreal) · [openvdb](https://github.com/SoulmatelynchVFX/openvdb) · [MaterialX](https://github.com/SoulmatelynchVFX/MaterialX) | Houdini 工具、引擎衔接、体积数据与材质表达。 |
-| **AI 与创作软件连接** | [mcp-for-blender](https://github.com/SoulmatelynchVFX/mcp-for-blender) · [unity-mcp](https://github.com/SoulmatelynchVFX/unity-mcp) · [ComfyUI](https://github.com/SoulmatelynchVFX/ComfyUI) | 编辑器自动化、节点工作流与生成式视觉实验。 |
-| **Agent 与开发工具** | [typescript-sdk](https://github.com/SoulmatelynchVFX/typescript-sdk) · [langgraph](https://github.com/SoulmatelynchVFX/langgraph) · [BrowserSkill](https://github.com/SoulmatelynchVFX/BrowserSkill) · [claude-mem](https://github.com/SoulmatelynchVFX/claude-mem) | MCP、工具调用、浏览器操作和上下文管理。 |
-| **知识检索与模型应用** | [llama_index](https://github.com/SoulmatelynchVFX/llama_index) · [LightRAG](https://github.com/SoulmatelynchVFX/LightRAG) · [ollama](https://github.com/SoulmatelynchVFX/ollama) · [vllm](https://github.com/SoulmatelynchVFX/vllm) | 从资料检索到本地模型运行与推理服务。 |
-| **图形交互与实用工具** | [Babylon.js](https://github.com/SoulmatelynchVFX/Babylon.js) · [manim](https://github.com/SoulmatelynchVFX/manim) · [pot-desktop](https://github.com/SoulmatelynchVFX/pot-desktop) | 浏览器图形、数学可视化与桌面翻译体验。 |
+### VFX 与程序化制作
+
+- [SideFXLabs](https://github.com/SoulmatelynchVFX/SideFXLabs) — Houdini 工具与引擎衔接
+- [HoudiniEngineForUnreal](https://github.com/SoulmatelynchVFX/HoudiniEngineForUnreal) — 引擎集成
+- [openvdb](https://github.com/SoulmatelynchVFX/openvdb) — 体积数据处理
+- [MaterialX](https://github.com/SoulmatelynchVFX/MaterialX) — 材质表达系统
+
+### AI 与创作软件连接
+
+- [mcp-for-blender](https://github.com/SoulmatelynchVFX/mcp-for-blender) — 编辑器自动化
+- [unity-mcp](https://github.com/SoulmatelynchVFX/unity-mcp) — Unity 集成
+- [ComfyUI](https://github.com/SoulmatelynchVFX/ComfyUI) — 节点工作流
+- [BrowserSkill](https://github.com/SoulmatelynchVFX/BrowserSkill) — 浏览器操作
+
+### 知识检索与模型应用
+
+- [llama_index](https://github.com/SoulmatelynchVFX/llama_index) — 资料检索
+- [LightRAG](https://github.com/SoulmatelynchVFX/LightRAG) — 轻量级 RAG
+- [ollama](https://github.com/SoulmatelynchVFX/ollama) — 本地模型运行
+- [vllm](https://github.com/SoulmatelynchVFX/vllm) — 推理服务
+
+---
 
 ## 🛠 技能栈
 
@@ -61,4 +113,3 @@
 <img src="./assets/lang-card.svg" alt="Most Used Languages" width="572">
 
 喜欢有意思的视觉效果，也喜欢能省事的小工具。欢迎交流 VFX 工作流、程序化制作、交互体验和 AI 辅助创作。
-
