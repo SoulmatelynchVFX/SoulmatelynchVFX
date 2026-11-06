@@ -2,29 +2,29 @@
 <text x="16" y="26" fill="#2F81F7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600">Most Used Languages</text>
 <defs><clipPath id="bar"><rect x="16" y="42" width="540" height="13" rx="6"/></clipPath></defs>
 <g clip-path="url(#bar)">
-<rect x="16.000000" y="42" width="328.482320" height="13" fill="#3572A5"/>
-<rect x="344.482320" y="42" width="73.379015" height="13" fill="#3178C6"/>
-<rect x="417.861336" y="42" width="40.285764" height="13" fill="#563D7C"/>
-<rect x="458.147100" y="42" width="39.695054" height="13" fill="#E34C26"/>
-<rect x="497.842154" y="42" width="26.569448" height="13" fill="#F1E05A"/>
-<rect x="524.411602" y="42" width="16.504507" height="13" fill="#012456"/>
-<rect x="540.916108" y="42" width="14.809337" height="13" fill="#8B949E"/>
-<rect x="555.725445" y="42" width="0.274555" height="13" fill="#8B949E"/>
+<rect x="16.000000" y="42" width="329.920638" height="13" fill="#3572A5"/>
+<rect x="345.920638" y="42" width="72.880039" height="13" fill="#3178C6"/>
+<rect x="418.800677" y="42" width="40.011821" height="13" fill="#563D7C"/>
+<rect x="458.812498" y="42" width="39.425128" height="13" fill="#E34C26"/>
+<rect x="498.237627" y="42" width="26.388776" height="13" fill="#F1E05A"/>
+<rect x="524.626402" y="42" width="16.392276" height="13" fill="#012456"/>
+<rect x="541.018678" y="42" width="14.708633" height="13" fill="#8B949E"/>
+<rect x="555.727312" y="42" width="0.272688" height="13" fill="#8B949E"/>
 </g>
 <circle cx="16" cy="72" r="5" fill="#3572A5"/>
-<text x="32" y="76" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">Python 60.83%</text>
+<text x="32" y="76" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">Python 61.10%</text>
 <circle cx="196" cy="72" r="5" fill="#3178C6"/>
-<text x="212" y="76" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">TypeScript 13.59%</text>
+<text x="212" y="76" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">TypeScript 13.50%</text>
 <circle cx="376" cy="72" r="5" fill="#563D7C"/>
-<text x="392" y="76" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">CSS 7.46%</text>
+<text x="392" y="76" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">CSS 7.41%</text>
 <circle cx="16" cy="98" r="5" fill="#E34C26"/>
-<text x="32" y="102" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">HTML 7.35%</text>
+<text x="32" y="102" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">HTML 7.30%</text>
 <circle cx="196" cy="98" r="5" fill="#F1E05A"/>
-<text x="212" y="102" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">JavaScript 4.92%</text>
+<text x="212" y="102" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">JavaScript 4.89%</text>
 <circle cx="376" cy="98" r="5" fill="#012456"/>
-<text x="392" y="102" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">PowerShell 3.06%</text>
+<text x="392" y="102" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">PowerShell 3.03%</text>
 <circle cx="16" cy="124" r="5" fill="#8B949E"/>
-<text x="32" y="128" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">C# 2.74%</text>
+<text x="32" y="128" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">C# 2.72%</text>
 <circle cx="196" cy="124" r="5" fill="#8B949E"/>
 <text x="212" y="128" fill="#C9D1D9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">VBScript 0.05%</text>
 </svg>
