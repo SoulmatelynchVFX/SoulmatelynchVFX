@@ -5,6 +5,7 @@ on:
     - cron: "0 1 * * *"
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - "scripts/build_lang_card.py"
       - ".github/workflows/lang-card.yml"
