@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="235" viewBox="0 0 440 235" role="img" aria-label="语言占比。6 个公开非 fork 仓库 · GitHub 代码字节数 · 2026-11-11。Python 63.79%，TypeScript 12.56%，CSS 6.90%，HTML 6.80%，JavaScript 4.55%，PowerShell 2.82%，C# 2.53%，VBScript 0.05%">
+<style>.surface{fill:#fbfcff;stroke:#c6d7e7}.chip{fill:#edf3f9}.label{fill:#24394f}.skill-icon{fill:var(--icon-light)}@media(prefers-color-scheme:dark){.surface{fill:#141e2a;stroke:#354658}.chip{fill:#233448}.label{fill:#e6edf5}.skill-icon{fill:var(--icon-dark)}}</style>
+<g font-family="Geist, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<rect class="surface" x=".5" y=".5" width="439" height="234" rx="23.5"/>
+<text class="label" x="24" y="40" font-size="22" font-weight="750" fill="currentColor">Most Used Languages</text>
+<defs><clipPath id="bar"><rect x="24" y="70" width="392" height="13" rx="6.5"/></clipPath></defs>
+<g clip-path="url(#bar)"><rect x="24" y="70" width="250.05462223773137" height="13" rx="0" fill="#3572a5" stroke="none"/><rect x="274.05462223773134" y="70" width="49.243222071087246" height="13" rx="0" fill="#3178c6" stroke="none"/><rect x="323.2978443088186" y="70" width="27.034988142630272" height="13" rx="0" fill="#663399" stroke="none"/><rect x="350.33283245144884" y="70" width="26.63857455187688" height="13" rx="0" fill="#e34c26" stroke="none"/><rect x="376.97140700332574" y="70" width="17.830236648886547" height="13" rx="0" fill="#f1e05a" stroke="none"/><rect x="394.8016436522123" y="70" width="11.075851558549768" height="13" rx="0" fill="#315a9a" stroke="none"/><rect x="405.87749521076205" y="70" width="9.938256218887757" height="13" rx="0" fill="#178600" stroke="none"/><rect x="415.8157514296498" y="70" width="0.18424857035016629" height="13" rx="0" fill="#945db7" stroke="none"/></g>
+<circle cx="30" cy="107" r="5" fill="#3572a5"/>
+<text class="label" x="43" y="112" font-size="14" font-weight="550" fill="currentColor">Python 63.79%</text>
+<circle cx="226" cy="107" r="5" fill="#3178c6"/>
+<text class="label" x="239" y="112" font-size="14" font-weight="550" fill="currentColor">TypeScript 12.56%</text>
+<circle cx="30" cy="135" r="5" fill="#663399"/>
+<text class="label" x="43" y="140" font-size="14" font-weight="550" fill="currentColor">CSS 6.90%</text>
+<circle cx="226" cy="135" r="5" fill="#e34c26"/>
+<text class="label" x="239" y="140" font-size="14" font-weight="550" fill="currentColor">HTML 6.80%</text>
+<circle cx="30" cy="163" r="5" fill="#f1e05a"/>
+<text class="label" x="43" y="168" font-size="14" font-weight="550" fill="currentColor">JavaScript 4.55%</text>
+<circle cx="226" cy="163" r="5" fill="#315a9a"/>
+<text class="label" x="239" y="168" font-size="14" font-weight="550" fill="currentColor">PowerShell 2.82%</text>
+<circle cx="30" cy="191" r="5" fill="#178600"/>
+<text class="label" x="43" y="196" font-size="14" font-weight="550" fill="currentColor">C# 2.53%</text>
+<circle cx="226" cy="191" r="5" fill="#945db7"/>
+<text class="label" x="239" y="196" font-size="14" font-weight="550" fill="currentColor">VBScript 0.05%</text>
+<text class="label" x="24" y="217" font-size="11" font-weight="500" fill="currentColor">6 个公开非 fork 仓库 · GitHub 代码字节数 · 2026-11-11</text>
+</g>
+</svg>

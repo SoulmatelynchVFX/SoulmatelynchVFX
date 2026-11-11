@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="87" viewBox="0 0 440 87" role="img" aria-label="Skills · 常用软件、编程语言与工具">
+
+<g font-family="Geist, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<defs><clipPath id="band"><rect width="440" height="87" rx="19"/></clipPath></defs>
+<g clip-path="url(#band)"><rect x="0" y="0" width="440" height="87" rx="19" fill="#EBE1FB" stroke="none"/><circle cx="388" cy="87" r="66" fill="#9678cf"/><circle cx="388" cy="87" r="37" fill="#EBE1FB"/></g>
+<text x="22" y="40" font-size="28" font-weight="800" fill="#142a40">Skills</text>
+<text x="23" y="64" font-size="16" font-weight="500" fill="#40526b">常用软件、编程语言与工具</text>
+</g>
+</svg>

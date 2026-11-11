@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="34" viewBox="0 0 96 34" role="img" aria-label="ORCID">
+<style>.pill{fill:#142a40}.pill-text{fill:#f7fbff}@media(prefers-color-scheme:dark){.pill{fill:#daecfd}.pill-text{fill:#142a40}}</style>
+<g font-family="Geist, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<rect class="pill" width="96" height="34" rx="17"/>
+<text class="pill-text" x="13" y="22" font-size="14" font-weight="700" fill="currentColor">↗</text>
+<text class="pill-text" x="34" y="22" font-size="14" font-weight="700" fill="currentColor">ORCID</text>
+</g>
+</svg>

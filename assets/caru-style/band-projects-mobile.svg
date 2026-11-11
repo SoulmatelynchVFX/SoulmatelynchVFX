@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="87" viewBox="0 0 440 87" role="img" aria-label="Projects · 视觉特效作品集与公开工具">
+
+<g font-family="Geist, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<defs><clipPath id="band"><rect width="440" height="87" rx="19"/></clipPath></defs>
+<g clip-path="url(#band)"><rect x="0" y="0" width="440" height="87" rx="19" fill="#DAECFD" stroke="none"/><rect x="340" y="22" width="112" height="112" rx="21" fill="#397ba9" transform="rotate(18 396 78)"/></g>
+<text x="22" y="40" font-size="28" font-weight="800" fill="#142a40">Projects</text>
+<text x="23" y="64" font-size="16" font-weight="500" fill="#40526b">视觉特效作品集与公开工具</text>
+</g>
+</svg>

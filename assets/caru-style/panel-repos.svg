@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="446" height="125" viewBox="0 0 446 125" role="img" aria-label="Open Source · 公开工具、源码与 Fork">
+
+<g font-family="Geist, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<defs><clipPath id="panel"><rect width="446" height="125" rx="22"/></clipPath></defs>
+<g clip-path="url(#panel)"><rect x="0" y="0" width="446" height="125" rx="22" fill="#FDE4D9" stroke="none"/><circle cx="440" cy="119" r="79" fill="#f5af9f"/></g>
+<text x="24" y="52" font-size="30" font-weight="780" fill="#142a40">Open Source</text>
+<text x="26" y="88" font-size="18" font-weight="500" fill="#3c5468">公开工具、源码与 Fork</text>
+<text x="380" y="76" font-size="34" font-weight="700" fill="#142a40">↗</text>
+</g>
+</svg>
