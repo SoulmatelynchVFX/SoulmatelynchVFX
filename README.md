@@ -25,7 +25,7 @@
 
 <picture><source media="(max-width: 600px)" srcset="assets/caru-style/skills-ai-mobile.svg"><img src="assets/caru-style/skills-ai.svg" alt="AI 与工具链 · Codex · Claude Code · MCP · OpenRouter · Windows · Git · Vercel · Docker" width="100%"></picture>
 
-<picture><source media="(max-width: 600px)" srcset="assets/caru-style/languages-mobile.svg"><img src="assets/caru-style/languages.svg" alt="Most Used Languages。Python 63.79%，TypeScript 12.56%，CSS 6.90%，HTML 6.80%，JavaScript 4.55%，PowerShell 2.82%，C# 2.53%，VBScript 0.05%。按 6 个公开非 fork 仓库的代码字节数汇总。" width="100%"></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/caru-style/languages-mobile.svg"><img src="assets/caru-style/languages.svg" alt="Most Used Languages。Python 66.90%，TypeScript 11.32%，CSS 6.11%，HTML 5.95%，JavaScript 4.99%，PowerShell 2.47%，C# 2.22%，VBScript 0.04%" width="100%"></picture>
 
 <p>
   <a href="https://www.sl-vfx.site"><img src="assets/caru-style/panel-work.svg" alt="VFX Portfolio · 作品与特效实践" width="48.5%"></a>
